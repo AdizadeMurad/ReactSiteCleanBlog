@@ -1,0 +1,50 @@
+.overlay__contact {
+    padding-bottom: 60px;
+
+}
+
+.overlay__blog__contact {
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    min-height: 530px;
+    background-image: linear-gradient(to top,
+            rgba(26, 26, 26, 0.5),
+            rgba(23, 23, 23, 0.5)),
+        url("/public/imgs/contact-bg.jpg");
+}
+
+.overlay__text__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.2;
+
+
+
+}
+
+.blog__text__contact {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    max-width: 560px;
+    font-weight: 300;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ;
+}
+
+
+
+.blog__head__contact {
+    font-size: 75px;
+    color: white;
+    max-width: 560px;
+    font-weight: 800;
+    text-align: center;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ;
+
+}
+

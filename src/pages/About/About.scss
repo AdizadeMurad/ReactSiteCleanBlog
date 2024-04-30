@@ -1,0 +1,156 @@
+.container {
+    max-width: 1200px;
+}
+
+.navbar {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h2 {
+    color: white;
+    font-size: BOLDER;
+}
+
+.navbar__list {
+    margin-right: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+.button__menu {
+    display: none;
+}
+
+.a__color__about {
+    color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar {
+        max-width: 960px;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        margin: auto;
+        padding: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 990px) {
+
+    .button__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 80px;
+        height: 40px;
+        border: 1px solid rgb(226, 226, 226);
+    }
+
+    .navbar__list {
+        display: none;
+
+    }
+
+    .navbar {
+        max-width: 990px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .navbar {
+        max-width: 768px;
+        padding: 7px;
+    }
+
+    .navbar__list {
+        display: none;
+
+    }
+}
+
+.overlay__blog__about {
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    min-height: 530px;
+    background-size: cover;
+    background-image: linear-gradient(to top,
+            rgba(26, 26, 26, 0.5),
+            rgba(23, 23, 23, 0.5)),
+        url("/public/imgs/about-bg.jpg");
+}
+
+.overlay__text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog__text {
+    font-size: 24px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+
+
+}
+
+.blog__head {
+    font-size: 80px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+
+
+}
+
+@media only screen and (max-width:768px) {
+    .blog__head {
+        font-size: 48px;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+
+
+    }
+
+}
+
+.text__general__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 40px;
+}
+
+.text__about {
+    max-width: 654px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.text__middle__about {
+    font-size: 20px;
+    font-family: "Lora", serif;
+}
