@@ -11,9 +11,7 @@ function Navbar() {
         <nav className="general-navbar">
           <div className="navbar">
             <div className="start">
-              <p className="start__text">
-                Start Bootstrap
-              </p>
+            <Link className="start__text" to={'/'}> Start Bootstrap</Link>
             </div>
             <ul className="navbar__list">
             <Link className="link" to={'/'}>HOME</Link>
